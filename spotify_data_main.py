@@ -4,7 +4,7 @@ import PySimpleGUI as sg
 from os.path import exists
 import sys
 
-sg.theme('Dark Green 5')
+sg.theme('Dark Green 4')
 
 left_col = [[sg.Text("Enter file name: "),sg.InputText(size=(30, 1)),sg.Push()],
             [sg.Text("Number:"),sg.InputText(size=(10, 1)),sg.Push()],
